@@ -1,0 +1,44 @@
+[
+  {
+    "name": "name",
+    "type": "text",
+    "id": "name",
+    "labelText": "Name:",
+    "value": "{formValues.name}"
+  },
+  {
+    "name": "gender",
+    "type": "radio",
+    "id": "radioOne",
+    "labelText": "Male",
+    "value": "male"
+  },
+  {
+    "name": "gender",
+    "type": "radio",
+    "id": "radioTwo",
+    "labelText": "Female",
+    "value": "female"
+  },
+  {
+    "name": "state",
+    "type": "text",
+    "id": "state",
+    "labelText": "state:",
+    "value": "{formValues.state}"
+  },
+  {
+    "name": "phone",
+    "type": "tel",
+    "id": "phone",
+    "labelText": "Phone:",
+    "value": "{formValues.phone}"
+  },
+  {
+    "name": "address",
+    "type": "text",
+    "id": "address",
+    "labelText": "address:",
+    "value": "{formValues.address}"
+  }
+]
